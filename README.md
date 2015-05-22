@@ -1,4 +1,5 @@
-# dbn-cuda
+dbn-cuda
+========
 
 GPU accelerated Deep Belief Network in Python
 
@@ -13,3 +14,10 @@ From [Wikipedia](http://en.wikipedia.org/wiki/Deep_belief_network):
 > After this learning step, a DBN can be further trained in a supervised way to perform classification.
 
 See the [example](example.ipynb).
+
+Requirements
+------------
+
+ * [numpy](http://www.numpy.org)
+ * [cudamat](https://github.com/cudamat/cudamat)
+ * [PyPrind](https://pypi.python.org/pypi/PyPrind)
